@@ -1,26 +1,18 @@
 import React, { useState } from 'react';
 import Nav from './components/Nav';
 import AboutMe from './components/About';
-import AllProjects from './components/Gallery';
+import Projects from './components/Projects';
 import ContactMe from './components/Contact';
 
 function App() {
   const [categories] = useState([
     {
-      name: 'Vanilla JavaScript',
-      description: 'These projects have been created using plain JavaScript.',
+      name: 'Projects',
+      description: 'To view an example a project click on one of the display pictures.',
     },
     {
-      name: 'Javascript and CSS',
-      description: 'These projects have been created with JavaScript and styled with CSS.',
-    },
-    {
-      name: 'APIs',
-      description: 'These projects have made use of APIs to provide larger databases of information for the user.',
-    },
-    {
-      name: 'Backend Server',
-      description: 'These projects feature backend server applications such as MySQL, MongoDB and NoSQL.',
+      name: 'Resume',
+      description: 'To view a current working resume click the image.',
     },
   ]);
 
@@ -40,8 +32,8 @@ function App() {
       <main>
         {!contactSelected ? (
           <>
-            <AllProjects currentCategory={currentCategory}></AllProjects>
             <AboutMe></AboutMe>
+            <Projects currentCategory={currentCategory}></Projects>
           </>
         ) : (
           <ContactMe></ContactMe>

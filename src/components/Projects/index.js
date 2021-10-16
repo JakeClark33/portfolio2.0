@@ -1,15 +1,15 @@
 import React from 'react';
-import PhotoList from '../PhotoList';
+import ProjectList from '../ProjectList';
 import { capitalizeFirstLetter } from '../../utils/helpers';
 
-function Gallery(props) {
+function Projects(props) {
   const { currentCategory } = props;
   return (
     <section>
       <h1 data-testid="h1tag">{capitalizeFirstLetter(currentCategory.name)}</h1>
       <p>{currentCategory.description}</p>
-      <PhotoList category={currentCategory.name} />
+      <ProjectList category={currentCategory.name} />
     </section>
   );
 }
-export default Gallery;
+export default Projects;

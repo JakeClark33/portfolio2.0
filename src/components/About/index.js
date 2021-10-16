@@ -7,13 +7,11 @@ function About() {
       <img src={coverImage} className="my-2" style={{ width: "100%" }} alt="cover" />
       <div className="my-2">
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum turpis sed ex
-          condimentum molestie. Mauris condimentum lectus ut ornare dignissim. Mauris faucibus urna
-          mi, ac feugiat metus aliquam maximus. Proin aliquam justo nec diam vulputate vestibulum.
-          Aenean sollicitudin nulla at nisi ornare, nec suscipit massa eleifend. Morbi tristique
-          justo vel turpis sollicitudin, et tristique velit convallis. In hac habitasse platea
-          dictumst. Phasellus mattis nunc sed orci consequat laoreet. Praesent id nisl nibh.
-          Curabitur imperdiet ultricies mollis. In hac habitasse platea dictumst.
+          I am currently in a Coding bootcamp for Javascript full stack development.
+          I have experience with Vanilla Javascript, CSS, API's, front and back-end 
+          servers including MYSQL, NOSQL and MongoDB. I have a bachelor of arts in 
+          Psychology. I am expanding my knowledge base to apply for other jobs as well
+          as supplementing my wifes business and web development. 
         </p>
       </div>
     </section>
