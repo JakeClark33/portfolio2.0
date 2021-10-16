@@ -1,17 +1,17 @@
 import React, { useState } from 'react';
 import Nav from './components/Nav';
-import AboutMe from './components/About';
-import Projects from './components/Projects';
-import ContactMe from './components/Contact';
+import AboutMe from './components/AboutMe';
+import ProjectList from './components/ProjectList';
+import ContactMe from './components/ContactMe';
 
 function App() {
   const [categories] = useState([
     {
-      name: 'Projects',
+      name: 'projects',
       description: 'To view an example a project click on one of the display pictures.',
     },
     {
-      name: 'Resume',
+      name: 'resume',
       description: 'To view a current working resume click the image.',
     },
   ]);
@@ -33,7 +33,7 @@ function App() {
         {!contactSelected ? (
           <>
             <AboutMe></AboutMe>
-            <Projects currentCategory={currentCategory}></Projects>
+            <ProjectList currentCategory={currentCategory}></ProjectList>
           </>
         ) : (
           <ContactMe></ContactMe>
