@@ -13,9 +13,10 @@ function App() {
     },
     {
       name: 'resume',
-      description: 'To view a current working resume click the image.',
+      description: 'To download a working resume click the resume link below.',
     },
-  ]);
+
+    ]);
 
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
 

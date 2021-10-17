@@ -4,8 +4,7 @@ import React, {Component } from 'react';
 class Resume extends Component {
   render() {
     return(
-      <div>
-        <h1> Resume Page </h1>
+      <div id="resume">
         <a href="https://github.com/JakeClark33/portfolio2.0/raw/main/src/assets/large/resume/jsResume.pdf" download>Resume</a>
       </div>
     )
