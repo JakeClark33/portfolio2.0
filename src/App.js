@@ -35,8 +35,7 @@ function App() {
           <>
           <AboutMe></AboutMe>
           <ProjectList currentCategory={currentCategory}></ProjectList>
-          <Resume>
-          </Resume>
+          <Resume></Resume>
           </>
         ) : (
           <ContactMe></ContactMe>

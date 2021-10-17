@@ -2,8 +2,29 @@
     {
         "small": "put small url here",
         "large": "put large url here",
-        "githubURL": "link to github repo",
-        "name": "Avengers"
+        "githubURL": "https://github.com/JakeClark33/robot-gladiators.git",
+        "name": "Robot Gladiators"
+
+    }
+    {
+        "small": "put small url here",
+        "large": "put large url here",
+        "githubURL": "https://github.com/JakeClark33/run-buddy.git",
+        "name": "Run Buddy"
+
+    }
+    {
+        "small": "put small url here",
+        "large": "put large url here",
+        "githubURL": "https://github.com/watkincw/what-the-bleep-should-I-watch.git",
+        "name": "What the Bleep Should I watch"
+
+    }
+    {
+        "small": "put small url here",
+        "large": "put large url here",
+        "githubURL": "https://github.com/JakeClark33/TripTrakkr.git",
+        "name": "TripTakkr"
 
     }
 
