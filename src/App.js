@@ -11,10 +11,6 @@ function App() {
       name: 'projects',
       description: 'To view an example a project click on one of the display pictures.',
     },
-    {
-      name: 'resume',
-      description: 'To download a working resume click the resume link below.',
-    },
 
     ]);
 
