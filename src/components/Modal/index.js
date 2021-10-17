@@ -7,7 +7,7 @@ const Modal = ({ onClose, currentPhoto }) => {
     <div className="modalBackdrop">
       <div className="modalContainer">
         <h3 className="modalTitle">{name} </h3>
-        <img src={require(`../../assets/large/${category}/${index}.jpg`)} alt="current category" />
+        <img src= {`https://github.com/JakeClark33/portfolio2.0/raw/main/src/assets/large/${category}/${index}.jpg`} alt="current category" />
         <p>
           {description}
         </p>

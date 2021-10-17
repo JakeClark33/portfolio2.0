@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Modal from '../Modal';
 
+
 const Projects = ({ category }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [currentPhoto, setCurrentPhoto] = useState();
@@ -47,7 +48,7 @@ const Projects = ({ category }) => {
       <div className="flex-row">
         {currentPhotos.map((image, i) => (
           <img
-            src={require(`../../assets/small/${category}/${i}.jpg`)}
+            src= {`https://github.com/JakeClark33/portfolio2.0/raw/main/src/assets/small/${category}/${i}.jpg`}
             alt={image.name}
             className="img-thumbnail mx-1"
             onClick={() => toggleModal(image, i)}

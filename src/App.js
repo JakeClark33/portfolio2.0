@@ -3,6 +3,7 @@ import Nav from './components/Nav';
 import AboutMe from './components/AboutMe';
 import ProjectList from './components/ProjectList';
 import ContactMe from './components/ContactMe';
+import Resume from './components/Resume';
 
 function App() {
   const [categories] = useState([
@@ -32,8 +33,10 @@ function App() {
       <main>
         {!contactSelected ? (
           <>
-            <AboutMe></AboutMe>
-            <ProjectList currentCategory={currentCategory}></ProjectList>
+          <AboutMe></AboutMe>
+          <ProjectList currentCategory={currentCategory}></ProjectList>
+          <Resume>
+          </Resume>
           </>
         ) : (
           <ContactMe></ContactMe>
