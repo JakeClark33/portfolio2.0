@@ -4,6 +4,8 @@ import AboutMe from './components/AboutMe';
 import ProjectList from './components/ProjectList';
 import ContactMe from './components/ContactMe';
 import Resume from './components/Resume';
+import FindMe from './components/Findme';
+
 
 function App() {
   const [categories] = useState([
@@ -38,7 +40,11 @@ function App() {
           <ContactMe></ContactMe>
         )}
       </main>
+      <footer>
+        <FindMe></FindMe>
+      </footer>
     </div>
+
   );
 }
 

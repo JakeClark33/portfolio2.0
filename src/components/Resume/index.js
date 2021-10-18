@@ -5,7 +5,7 @@ class Resume extends Component {
   render() {
     return(
       <div id="resume">
-          <h1>Click the link to view the resume</h1>
+          <h1>Click resume to download most current resume</h1>
         <a href="https://github.com/JakeClark33/portfolio2.0/raw/main/src/assets/large/resume/jsResume.pdf" download>Resume</a>
       </div>
     )

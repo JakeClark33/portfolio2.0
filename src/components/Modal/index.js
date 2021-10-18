@@ -12,7 +12,7 @@ const Modal = ({ onClose, currentPhoto }) => {
           {description}
         </p>
         <button type="button" onClick={onClose}>
-          Close this modal
+          Close this Window!
         </button>
         <a href= {githubURL}>
         <button className="GFG">
