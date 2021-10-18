@@ -1,5 +1,7 @@
 #####Portfolio 2.0#####
 
+![image](https://user-images.githubusercontent.com/84428608/137652915-6e5b5e2b-b9b7-48d4-9369-fd54caa7f6b7.png)
+
 # Table of contents
 1. [Introduction](#introduction)
 2. [Technology Used](#technologyused)
